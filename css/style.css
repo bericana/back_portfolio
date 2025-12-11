@@ -1,0 +1,191 @@
+@charset "UTF-8";  
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.open img{
+  width: 100vw;
+}
+
+.open{
+  position: relative;
+}
+
+.open-arrow{
+  position: absolute;
+  left: 50%;
+  bottom: 10vh;
+  width: 48px;
+  height: 130px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.open-arrow::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: -25px;
+  width: 2px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+
+.open-arrow::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: translate(-50%, 6px) rotate(-45deg);
+  transform-origin: 50% 50%;
+}
+
+.main_wrap {
+  position: relative;
+  width: 100%;
+  height: 1997px;
+  height: auto;
+  overflow: visible;
+}
+
+.main_wrap img.richo{
+  width: 369px;
+  transform: rotate(-23.40deg);
+  position: absolute;
+  top: 135px;
+  left: 74px;
+}
+
+.main_wrap img.minolta{
+  width: 660px;
+  transform: rotate(15.23deg);
+  position: absolute;
+  top: 1200px;
+  right: -40px;
+}
+
+.main_wrap img.ipad{
+  width: 794px;
+  transform: rotate(50deg);
+  position: absolute;
+  top: 50px;
+  right: -370px;
+}
+
+.main_wrap img.run{
+  width: 752.41px;
+  transform: rotate(-122.33deg);
+  position: absolute;
+  top: 900px;
+  left: -350px;
+}
+
+.book_body{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 300px;
+}
+
+.book_body .left {
+  width: 44px;
+  height: 930px;
+  background: #000;
+  border-radius: 20px;
+}
+
+.book_body .right {
+  width: 758px;
+  height: 930px;
+  background: #000;
+  border-radius: 20px;
+}
+
+.book_body .right img {
+  width: 500px;
+  position: relative;
+  top: 150px;
+  left: 130px;
+}
+.book_body .right p {
+  color: #fff;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 170px;
+}
+
+.book_main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 1000px;
+}
+.book_main .book_cover {
+  width: 1701px;
+  height: 921px;
+  display: flex;
+  gap: 0;
+}
+.book_main .book_cover .cover_left{
+  width: 782px;
+  height: 921px;
+  border-radius: 20px;
+  background: #000;
+}
+.book_main .book_cover .cover_canter{
+  width: 137px;
+  height: 921px;
+  border-radius: 20px;
+  background: #000;
+}
+.book_main .book_cover .cover_right{
+  width: 782px;
+  height: 921px;
+  border-radius: 20px;
+  background: #000;
+}
+
+
+
+.nav_wing .contents, .nav_wing .introduction, .nav_wing .uxui, .nav_wing .previous{
+  width: 50px;
+  height: 33px; 
+  background: #EFEFEF;
+}
+
+.paper {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1660px;
+  height: 880px; 
+  background: #FFF;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  z-index: 10;
+}
+  
