@@ -56,85 +56,8 @@ body, html {
   transform-origin: 50% 50%;
 }
 
-.main_wrap {
-  position: relative;
-  width: 100%;
-  height: 1997px;
-  height: auto;
-  overflow: visible;
-}
 
-.main_wrap img.richo{
-  width: 369px;
-  transform: rotate(-23.40deg);
-  position: absolute;
-  top: 135px;
-  left: 74px;
-}
-
-.main_wrap img.minolta{
-  width: 660px;
-  transform: rotate(15.23deg);
-  position: absolute;
-  top: 1200px;
-  right: -40px;
-}
-
-.main_wrap img.ipad{
-  width: 794px;
-  transform: rotate(50deg);
-  position: absolute;
-  top: 50px;
-  right: -370px;
-}
-
-.main_wrap img.run{
-  width: 752.41px;
-  transform: rotate(-122.33deg);
-  position: absolute;
-  top: 900px;
-  left: -350px;
-}
-
-.book_body{
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 300px;
-}
-
-.book_body .left {
-  width: 44px;
-  height: 930px;
-  background: #000;
-  border-radius: 20px;
-}
-
-.book_body .right {
-  width: 758px;
-  height: 930px;
-  background: #000;
-  border-radius: 20px;
-}
-
-.book_body .right img {
-  width: 500px;
-  position: relative;
-  top: 150px;
-  left: 130px;
-}
-.book_body .right p {
-  color: #fff;
-  font-family: 'NanumSquare', sans-serif;
-  font-size: 70px;
-  font-weight: 100;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  top: 170px;
-}
-
+/* book_main */
 .book_main{
   position: relative;
   display: flex;
